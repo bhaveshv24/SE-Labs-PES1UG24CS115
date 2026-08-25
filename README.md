@@ -4,7 +4,6 @@
 **Student:** Bhavesh V  
 **Semester:** 5th Semester  
 **Section:** B  
-**Lab:** Lab 1 – Requirements Engineering & UML Use-Case Modeling  
 
 ---
 
