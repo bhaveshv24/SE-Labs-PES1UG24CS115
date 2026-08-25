@@ -7,14 +7,6 @@
 
 ---
 
-## 📁 Repository Structure
-SE-Labs-PES1UG24CS115/
-├── Requirements_Table.docx # Functional & Non-Functional Requirements
-├── UseCase_Diagram.pdf # UML Use-Case Diagram (with include/extend)
-└── UseCase_Flow_Specification.docx # Main Success Scenario + Alternate Flow
-
----
-
 ## 📦 Deliverables
 
 | # | File | Description |
