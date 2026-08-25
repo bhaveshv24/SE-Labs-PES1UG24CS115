@@ -7,7 +7,7 @@
 
 ---
 
-## 📦 Deliverables
+## Deliverables
 
 | # | File | Description |
 |---|------|-------------|
@@ -17,7 +17,7 @@
 
 ---
 
-## 🛠 Tools Used
+## Tools Used
 
 - **Draw.io** / **Mermaid.live** – Use‑Case Diagram
 - **Microsoft Word** – Requirements Table & Flow Specification
@@ -25,7 +25,7 @@
 
 ---
 
-## 📌 How to Use This Repo
+## How to Use This Repo
 
 1. Clone the repo:  
    `git clone https://github.com/bhaveshv24/SE-Labs-PES1UG24CS115.git`
@@ -34,7 +34,7 @@
 
 ---
 
-## 👤 Author
+## Author
 
 **Bhavesh V**  
 PES1UG24CS115  
