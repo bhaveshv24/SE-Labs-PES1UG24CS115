@@ -5,3 +5,15 @@ Thumbs.db
 .vscode/
 .idea/
 node_modules/
+
+__pycache__/
+
+.venv/
+
+.pytest_cache/
+
+.coverage*
+
+LAB6/evidence/html_*/
+
+tmp/

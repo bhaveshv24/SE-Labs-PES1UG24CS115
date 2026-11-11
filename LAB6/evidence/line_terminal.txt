@@ -1,0 +1,33 @@
+Lab 6 | LINE COVERAGE | 2026-11-03T12:23:05+05:30
+Working directory: LAB6
+
+$ python --version
+Python 3.12.13
+
+$ python -m pytest --version
+pytest 9.2.0
+
+$ python -m coverage --version
+Coverage.py, version 7.17.0 with C extension
+Full documentation is at https://coverage.readthedocs.io/en/7.17.0
+
+$ python -m coverage run --source=bike_share_rental -m pytest -q CodeCoverageTest_53_bike_share_rental.py
+.................                                                        [100%]
+17 passed in 0.02s
+
+$ python -m coverage report -m --fail-under=90
+Name                   Stmts   Miss  Cover   Missing
+----------------------------------------------------
+bike_share_rental.py      40      0   100%
+----------------------------------------------------
+TOTAL                     40      0   100%
+
+$ python -m coverage json -o evidence/line.json
+
+Wrote JSON report to evidence/line.json
+
+$ python -m coverage html -d evidence/html_line
+
+Wrote HTML report to evidence/html_line/index.html
+
+Line coverage: 40/40 = 100.00%

@@ -1,0 +1,16 @@
+<!doctype html><meta charset="utf-8"><title>Lab 6 - branch coverage command output</title><style>body{margin:0;background:#101923;color:#e8eef5;padding:28px;}h1{font:600 22px system-ui;margin:0 0 8px;color:#8fe4c0;}p{font:14px system-ui;color:#bac9d8;margin:0 0 22px;}pre{font:18px/1.55 Menlo,monospace;white-space:pre-wrap;overflow-wrap:anywhere;margin:0}</style><h1>Lab 6 / Branch coverage</h1><p>Verbatim command output saved by run_coverage.py. Browser view of the execution transcript.</p><pre>Lab 6 | BRANCH COVERAGE | 2026-11-03T12:25:30+05:30
+
+$ python -m coverage run --source=bike_share_rental --branch -m pytest -q BranchCoverageTest_53_bike_share_rental.py
+.........................................................                [100%]
+57 passed in 0.05s
+
+$ python -m coverage report -m --fail-under=90
+Name                   Stmts   Miss Branch BrPart  Cover   Missing
+------------------------------------------------------------------
+bike_share_rental.py      40      0     30      0   100%
+------------------------------------------------------------------
+TOTAL                     40      0     30      0   100%
+
+Line coverage: 40/40 = 100.00%
+Branch coverage: 30/30 = 100.00%
+</pre><p style="margin-top:24px">Full transcript: branch_terminal.txt</p>
